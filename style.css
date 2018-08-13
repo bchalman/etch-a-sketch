@@ -1,0 +1,103 @@
+html {
+  font-size: 13px;
+  background-color: #fff6eb;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Courier;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+header {
+  background-color: #ea6e5f;
+  padding: 20px 0;
+  box-shadow: 0 0 5px #ea6e5f;
+}
+
+#gridContainer {
+  margin: 100px auto 40px auto;
+  height: 600px;
+  width: 600px;
+  background-color: #ea6e5f;
+  box-shadow: 0 0 5px #ea6e5f;
+  padding:60px;
+  border-radius: 20px;
+  }
+
+.gridBox {
+  float: left;
+  margin: 0;
+  background-color: white;
+}
+
+.gridCol {
+  height: 100%;
+}
+
+.gridRow {
+  width: 100%;
+}
+
+button {
+  display: inline-block;
+  box-shadow: 0 0 5px #ea6e5f;
+  background-color: #ea6e5f;
+  border: 2px solid #ea6e5f;
+  border-radius: 20px;
+  height: 50px;
+  width: 160px;
+  font-family: Courier;
+  font-size: 1.3rem;
+  margin: 5px 10px;
+}
+
+.gridSizeForm {
+  background-color: #ea6e5f;
+  margin: 20px auto;
+  padding: 0 20px;
+  background-color: #ea6e5f;
+  border: 2px solid #ea6e5f;
+  border-radius: 20px;
+  width: 550px;
+  height: 80px;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+
+.gridSizeForm * {
+  margin: 20px;
+}
+
+label {
+  width: 33%;
+}
+
+span {
+  font-size: 0.7em;
+  width: 33%;
+  line-height: 1.3;
+}
+
+input {
+  height: 35px;
+  width: 33%;
+  padding: 0 5px;
+  font-family: Courier;
+  background-color: #fff6eb;
+  line-height: 3;
+}
+
+::-webkit-input-placeholder {line-height: 3;}
+     :-ms-input-placeholder {line-height: 3;}
+         ::-moz-placeholder {line-height: 3;}
+          :-moz-placeholder {line-height: 3;}
